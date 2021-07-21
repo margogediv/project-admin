@@ -70,6 +70,7 @@ body {
     grid-template-columns: 20% 1fr;
     height: 100vh;
     margin: 0;
+    background: #1f5062;
 }
 header, footer, article, nav, div {
     padding: 20px;
@@ -129,4 +130,18 @@ header, footer, article, nav, div {
 
 .menu__item:hover {
     color: lightblue;
+}
+
+.content__btn {
+    width: 300px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.content__btn:hover {
+    background: lightblue;
+    color: black;
 }
